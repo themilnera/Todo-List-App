@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    background: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#enable-cookies-button{
+    background-color: rgb(190, 85, 11);
+}
+#disable-cookies-button{
+    background-color: rgb(190, 85, 11);
+}
+
+.list-title{
+    text-align: center;
+    margin-bottom: 0;
+}
+.list-top{
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.list-label{
+    margin-left: 5px;
+}
+.list-box{
+    border-style: solid;
+    border-radius: 3px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.list-item-container{
+    margin: 5px;
+}
+.list-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 300px;
+}
+.remove-list{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 20px;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cookie-notice{
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(251, 174, 67);
+    margin-bottom: 10px;
+}
+#enable-cookies-text{
+    font-weight: bold;
+    margin-left: 2%;
+    background-color: orange;
+}
+#enable-cookies-button{
+    height: 3em;
+}
+#disable-cookies-button{
+    height: 3em;
+}
+
+/*NEW LIST INPUT FIELD*/
+.list-name{
+    background-color:rgb(14, 100, 7);
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+.new-item-input{
+    width: 70%;
+    align-self: center;
+}
+
+
+.button-container{
+    background-color: rgb(80, 79, 79);
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column, nowrap;
+    width: 100%;
+}
+
+.button{
+    background-color:rgb(30, 24, 24);
+    color: white;
+    border-radius: 3px;
+    padding: .5em;
+    width: 35%;
+}
+.edit-button{
+    font-size: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-top: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.remove-button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    border-radius:10px;
+    font-size: 10px;
+    border-color:rgb(246, 6, 110);
+    margin-left: 2px;
+    
+}
+.lt-button-container{
+    margin-top: 3px;
+}
+.add-button{
+    color: rgb(180, 224, 180);
+    background-color: rgb(3, 59, 3);
+    margin-left: 10px;
+    height: 20px;
+    font-size: 10px;
+    border-color: rgb(124, 214, 124);
+    margin: 0;
+}
+
+.text{
+    color: white;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.complete{
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+}
